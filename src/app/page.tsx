@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
+import Image from "next/image";
+import { Inter } from "@next/font/google";
+import styles from "./page.module.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -52,7 +52,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={inter.className}>
+          <h2 className="text-9xl font-bold underline">
             Docs <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
@@ -87,5 +87,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
